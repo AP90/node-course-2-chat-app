@@ -9,20 +9,7 @@
 
         <!-- adds in the js socket library -->
         <script src="/socket.io/socket.io.js"></script>
-        <script>
-            //opens up a websocket and keeps the connection open
-            var socket = io();
-
-            //client prints on the browser console
-            socket.on("connect", () => {
-                console.log("Connect to server");
-            });
-
-            socket.on("disconnect", () => {
-                console.log("Disconnect from server");
-            });
-
-        </script>
+        <script src="/js/index.js"></script>
     </body>
 
 </html>
