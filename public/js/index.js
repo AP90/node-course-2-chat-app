@@ -5,10 +5,6 @@ var socket = io();
 socket.on("connect", function() {
     console.log("Connect to server");
 
-    socket.emit("createMessage", {
-        from: "me@me.com",
-        text: "yo its me u dumbo"
-    });
 
 });
 
